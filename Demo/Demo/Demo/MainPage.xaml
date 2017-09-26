@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Demo"
+             x:Class="Demo.MainPage">
+
+    <Grid x:Name="RootGrid" BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--Controls are being added programmatically to the inner Grids-->
+
+        <Grid x:Name="HeaderGrid"/>
+
+        <Grid x:Name="BodyGrid" Grid.Row="1"/>
+    </Grid>
+
+</ContentPage>
